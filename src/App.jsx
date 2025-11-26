@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 // Make sure to install these packages by running:
 // npm install recharts lucide-react
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area } from 'recharts';
-import { Droplet, AlertTriangle, Wind, Thermometer, Activity, Camera, MapPin, TrendingDown, CheckCircle } from 'lucide-react';
+import { Droplet, AlertTriangle, Wind, Thermometer, Activity, Camera, MapPin, TrendingUp, TrendingDown, CheckCircle, XCircle } from 'lucide-react';
 
 const SmartRiverfrontDashboard = () => {
   const [activeTab, setActiveTab] = useState('overview');
